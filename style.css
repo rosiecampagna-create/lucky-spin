@@ -1,0 +1,54 @@
+body {
+  background: radial-gradient(circle, #222, #000);
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.game {
+  max-width: 360px;
+  margin: auto;
+  padding: 20px;
+}
+
+.reels {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.reel {
+  width: 90px;
+  height: 90px;
+  font-size: 48px;
+  background: #111;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 12px;
+  margin: 6px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background: gold;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: gray;
+}
+
+.message {
+  margin-top: 12px;
+  min-height: 24px;
+}
+
+.daily-bonus {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ccc;
+}

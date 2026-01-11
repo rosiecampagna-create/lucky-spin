@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lucky Spin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game">
+  <h1>🎰 Lucky Spin</h1>
+
+  <div class="credits">
+    Credits: <span id="credits">100</span>
+  </div>
+
+  <div class="daily-bonus" id="dailyBonus"></div>
+
+  <div class="reels">
+    <div class="reel" id="reel1">🍒</div>
+    <div class="reel" id="reel2">🍋</div>
+    <div class="reel" id="reel3">🔔</div>
+  </div>
+
+  <button id="spinBtn">SPIN</button>
+
+  <div class="message" id="message"></div>
+
+  <div class="actions">
+    <button onclick="watchAd()">Watch Ad (+5 Spins)</button>
+    <button onclick="buyCoins()">Buy Coins</button>
+  </div>
+</div>
+
+<div class="credit-line">
+  A quiet little game by Rosie Campagna
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
