@@ -67,7 +67,7 @@ function checkDailyBonus() {
 // MONETIZATION HOOKS
 function watchAd() {
   credits += 5;
-  message.textContent = "Thanks for watching! +5 spins";
+  message.textContent = "You received bonus spins!";
   updateCredits();
 }
 
@@ -80,3 +80,4 @@ function buyCoins() {
 // START GAME
 checkDailyBonus();
 updateCredits();
+
